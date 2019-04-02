@@ -12,11 +12,11 @@ describe('moveDodgerLeft()', () => {
     var newPosition = dodger.style.left
     newPosition = parseInt(newPosition)
 
-    expect(newPosition).to.be.below(left)
+    expect(newPosition).to.be.below(left) 
   })
 })
 
-describe('moveDodgerRight', () => {
+describe('moveDodgerRight', () => { 
   beforeEach(() => {
     dodger = document.getElementById('dodger')
   })
